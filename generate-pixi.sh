@@ -1,4 +1,5 @@
 cd pixijs/pixi.js/
-npm install
+npm ci
 npm run docs
+rm -rf ../docs
 mv docs ..
