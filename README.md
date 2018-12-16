@@ -7,6 +7,8 @@ Currently included:
 - PixiJS filters
 - Anime.js
 
+For other libraries, [devdocs.io](https://devdocs.io) is a good offline option.
+
 # Download
 
 Clone this repository with the `--recurse-submodules -j8` options:
