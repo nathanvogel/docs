@@ -20,7 +20,7 @@ git clone --recurse-submodules -j8 https://github.com/nathanvogel/docs.git
 
 # Use
 
-Simply open one of the docs by double-clicking the corresponding `open-###.sh` script or starting it in the command line with `sh open-###.sh`.
+Simply open one of the docs by double-clicking the corresponding `open-###.sh` script (it needs to open with the Terminal by default) or starting it in the command line with `sh open-###.sh`.
 
 Some documentations require http-server, which you can install with `npm install -g http-server`
 
