@@ -1,0 +1,9 @@
+[submodule "paperjs/paperjs.github.io"]
+	path = paperjs/paperjs.github.io
+	url = https://github.com/paperjs/paperjs.github.io.git
+[submodule "animejs/anime"]
+	path = animejs/anime
+	url = https://github.com/juliangarnier/anime.git
+[submodule "pixijs/pixi.js"]
+	path = pixijs/pixi.js
+	url = https://github.com/pixijs/pixi.js.git
