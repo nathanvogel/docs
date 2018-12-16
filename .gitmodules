@@ -10,3 +10,6 @@
 [submodule "pixijs/pixi-filters"]
 	path = pixijs/pixi-filters
 	url = https://github.com/pixijs/pixi-filters.git
+[submodule "ml5/ml5-website"]
+	path = ml5/ml5-website
+	url = https://github.com/ml5js/ml5-website

@@ -6,6 +6,7 @@ Currently included:
 - PixiJS
 - PixiJS filters
 - Anime.js
+- ml5.js
 
 For other libraries, [devdocs.io](https://devdocs.io) is a good offline option.
 
