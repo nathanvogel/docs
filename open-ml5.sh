@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# Go to the script's directory (not default in macOS).
+cd "${0%/*}"
 cd ml5/ml5-website/
 
 echo "Launching a server for the ml5js documentation..."

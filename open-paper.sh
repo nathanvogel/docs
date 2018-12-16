@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# Go to the script's directory (not automatic on macOS).
+cd "${0%/*}"
 cd paperjs/paperjs.github.io/
 
 echo "Launching a server for the Paper.js documentation..."
