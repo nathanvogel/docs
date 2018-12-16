@@ -1,0 +1,2195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PixiJS Filters Documentation</title>
+    
+    <meta name="description" content="API Documentation for PixiJS filters" />
+    
+        <meta name="keywords" content="filters, webgl, ascii, bloom, convolution, cross-hatch, dotfilter, emboss, pixelate, shockwave, twist, tiltshift" />
+        <meta name="keyword" content="filters, webgl, ascii, bloom, convolution, cross-hatch, dotfilter, emboss, pixelate, shockwave, twist, tiltshift" />
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <script src="scripts/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+    
+    
+    <script>
+    var config = {"monospaceLinks":false,"cleverLinks":false,"default":{"outputSourceFiles":true},"applicationName":"PixiJS Filters","footer":"Made with ♥ by Goodboy Digital (goodboydigital.com)","copyright":"PixiJS Copyright © 2013-2017 Mat Groves.","googleAnalytics":"UA-103772589-3","meta":{"title":"PixiJS Filters Documentation","description":"API Documentation for PixiJS filters","keyword":"filters, webgl, ascii, bloom, convolution, cross-hatch, dotfilter, emboss, pixelate, shockwave, twist, tiltshift"},"linenums":true};
+    </script>
+    
+
+    
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', config.googleAnalytics]);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    
+</head>
+<body>
+<div id="wrap" class="clearfix">
+    
+<div class="navigation">
+    <h3 class="applicationName"><a href="index.html">PixiJS Filters</a></h3>
+    <button id="menuToggle" class="btn btn-link btn-lg menu-toggle">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+    <div class="search">
+        <input id="search" type="text" class="form-control input-md" placeholder="Search...">
+    </div>
+    <ul class="list">
+    
+        <li class="item" data-name="PIXI.filters.AdjustmentFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.AdjustmentFilter.html">PIXI.filters.AdjustmentFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#alpha"><a href="PIXI.filters.AdjustmentFilter.html#alpha">alpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#blue"><a href="PIXI.filters.AdjustmentFilter.html#blue">blue</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#brightness"><a href="PIXI.filters.AdjustmentFilter.html#brightness">brightness</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#contrast"><a href="PIXI.filters.AdjustmentFilter.html#contrast">contrast</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#gamma"><a href="PIXI.filters.AdjustmentFilter.html#gamma">gamma</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#green"><a href="PIXI.filters.AdjustmentFilter.html#green">green</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#red"><a href="PIXI.filters.AdjustmentFilter.html#red">red</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdjustmentFilter#saturation"><a href="PIXI.filters.AdjustmentFilter.html#saturation">saturation</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.AdvancedBloomFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.AdvancedBloomFilter.html">PIXI.filters.AdvancedBloomFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#bloomScale"><a href="PIXI.filters.AdvancedBloomFilter.html#bloomScale">bloomScale</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#blur"><a href="PIXI.filters.AdvancedBloomFilter.html#blur">blur</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#brightness"><a href="PIXI.filters.AdvancedBloomFilter.html#brightness">brightness</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#kernels"><a href="PIXI.filters.AdvancedBloomFilter.html#kernels">kernels</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#pixelSize"><a href="PIXI.filters.AdvancedBloomFilter.html#pixelSize">pixelSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#quality"><a href="PIXI.filters.AdvancedBloomFilter.html#quality">quality</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#resolution"><a href="PIXI.filters.AdvancedBloomFilter.html#resolution">resolution</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.AdvancedBloomFilter#threshold"><a href="PIXI.filters.AdvancedBloomFilter.html#threshold">threshold</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.AsciiFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.AsciiFilter.html">PIXI.filters.AsciiFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.AsciiFilter#size"><a href="PIXI.filters.AsciiFilter.html#size">size</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.BevelFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.BevelFilter.html">PIXI.filters.BevelFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.BevelFilter#lightAlpha"><a href="PIXI.filters.BevelFilter.html#lightAlpha">lightAlpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BevelFilter#lightColor"><a href="PIXI.filters.BevelFilter.html#lightColor">lightColor</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BevelFilter#rotation"><a href="PIXI.filters.BevelFilter.html#rotation">rotation</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BevelFilter#shadowAlpha"><a href="PIXI.filters.BevelFilter.html#shadowAlpha">shadowAlpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BevelFilter#shadowColor"><a href="PIXI.filters.BevelFilter.html#shadowColor">shadowColor</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BevelFilter#thickness"><a href="PIXI.filters.BevelFilter.html#thickness">thickness</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.BloomFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.BloomFilter.html">PIXI.filters.BloomFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.BloomFilter#blur"><a href="PIXI.filters.BloomFilter.html#blur">blur</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BloomFilter#blurX"><a href="PIXI.filters.BloomFilter.html#blurX">blurX</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BloomFilter#blurY"><a href="PIXI.filters.BloomFilter.html#blurY">blurY</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.BulgePinchFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.BulgePinchFilter.html">PIXI.filters.BulgePinchFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.BulgePinchFilter#center"><a href="PIXI.filters.BulgePinchFilter.html#center">center</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BulgePinchFilter#radius"><a href="PIXI.filters.BulgePinchFilter.html#radius">radius</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.BulgePinchFilter#strength"><a href="PIXI.filters.BulgePinchFilter.html#strength">strength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.ColorMapFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.ColorMapFilter.html">PIXI.filters.ColorMapFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.ColorMapFilter#colorMap"><a href="PIXI.filters.ColorMapFilter.html#colorMap">colorMap</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ColorMapFilter#colorSize"><a href="PIXI.filters.ColorMapFilter.html#colorSize">colorSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ColorMapFilter#mix"><a href="PIXI.filters.ColorMapFilter.html#mix">mix</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ColorMapFilter#nearest"><a href="PIXI.filters.ColorMapFilter.html#nearest">nearest</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="PIXI.filters.ColorMapFilter#destroy"><a href="PIXI.filters.ColorMapFilter.html#destroy">destroy</a></li>
+            
+                <li class="parent  " data-name="PIXI.filters.ColorMapFilter#updateColorMap"><a href="PIXI.filters.ColorMapFilter.html#updateColorMap">updateColorMap</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.ColorReplaceFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.ColorReplaceFilter.html">PIXI.filters.ColorReplaceFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.ColorReplaceFilter#epsilon"><a href="PIXI.filters.ColorReplaceFilter.html#epsilon">epsilon</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ColorReplaceFilter#newColor"><a href="PIXI.filters.ColorReplaceFilter.html#newColor">newColor</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ColorReplaceFilter#originalColor"><a href="PIXI.filters.ColorReplaceFilter.html#originalColor">originalColor</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.ConvolutionFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.ConvolutionFilter.html">PIXI.filters.ConvolutionFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.ConvolutionFilter#height"><a href="PIXI.filters.ConvolutionFilter.html#height">height</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ConvolutionFilter#matrix"><a href="PIXI.filters.ConvolutionFilter.html#matrix">matrix</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ConvolutionFilter#width"><a href="PIXI.filters.ConvolutionFilter.html#width">width</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.CrossHatchFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.CrossHatchFilter.html">PIXI.filters.CrossHatchFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.CRTFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.CRTFilter.html">PIXI.filters.CRTFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#curvature"><a href="PIXI.filters.CRTFilter.html#curvature">curvature</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#lineContrast"><a href="PIXI.filters.CRTFilter.html#lineContrast">lineContrast</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#lineWidth"><a href="PIXI.filters.CRTFilter.html#lineWidth">lineWidth</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#noise"><a href="PIXI.filters.CRTFilter.html#noise">noise</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#noiseSize"><a href="PIXI.filters.CRTFilter.html#noiseSize">noiseSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#seed"><a href="PIXI.filters.CRTFilter.html#seed">seed</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#time"><a href="PIXI.filters.CRTFilter.html#time">time</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#verticalLine"><a href="PIXI.filters.CRTFilter.html#verticalLine">verticalLine</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#vignetting"><a href="PIXI.filters.CRTFilter.html#vignetting">vignetting</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#vignettingAlpha"><a href="PIXI.filters.CRTFilter.html#vignettingAlpha">vignettingAlpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.CRTFilter#vignettingBlur"><a href="PIXI.filters.CRTFilter.html#vignettingBlur">vignettingBlur</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.DotFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.DotFilter.html">PIXI.filters.DotFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.DotFilter#angle"><a href="PIXI.filters.DotFilter.html#angle">angle</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DotFilter#scale"><a href="PIXI.filters.DotFilter.html#scale">scale</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.DropShadowFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.DropShadowFilter.html">PIXI.filters.DropShadowFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#alpha"><a href="PIXI.filters.DropShadowFilter.html#alpha">alpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#blur"><a href="PIXI.filters.DropShadowFilter.html#blur">blur</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#color"><a href="PIXI.filters.DropShadowFilter.html#color">color</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#distance"><a href="PIXI.filters.DropShadowFilter.html#distance">distance</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#kernels"><a href="PIXI.filters.DropShadowFilter.html#kernels">kernels</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#pixelSize"><a href="PIXI.filters.DropShadowFilter.html#pixelSize">pixelSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#quality"><a href="PIXI.filters.DropShadowFilter.html#quality">quality</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#resolution"><a href="PIXI.filters.DropShadowFilter.html#resolution">resolution</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.DropShadowFilter#rotation"><a href="PIXI.filters.DropShadowFilter.html#rotation">rotation</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.EmbossFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.EmbossFilter.html">PIXI.filters.EmbossFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.EmbossFilter#strength"><a href="PIXI.filters.EmbossFilter.html#strength">strength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.GlitchFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.GlitchFilter.html">PIXI.filters.GlitchFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter.CLAMP"><a href="PIXI.filters.GlitchFilter.html#.CLAMP">CLAMP</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter.LOOP"><a href="PIXI.filters.GlitchFilter.html#.LOOP">LOOP</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter.MIRROR"><a href="PIXI.filters.GlitchFilter.html#.MIRROR">MIRROR</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter.ORIGINAL"><a href="PIXI.filters.GlitchFilter.html#.ORIGINAL">ORIGINAL</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter.TRANSPARENT"><a href="PIXI.filters.GlitchFilter.html#.TRANSPARENT">TRANSPARENT</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#average"><a href="PIXI.filters.GlitchFilter.html#average">average</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#blue"><a href="PIXI.filters.GlitchFilter.html#blue">blue</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#direction"><a href="PIXI.filters.GlitchFilter.html#direction">direction</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#fillMode"><a href="PIXI.filters.GlitchFilter.html#fillMode">fillMode</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#green"><a href="PIXI.filters.GlitchFilter.html#green">green</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#minSize"><a href="PIXI.filters.GlitchFilter.html#minSize">minSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#offset"><a href="PIXI.filters.GlitchFilter.html#offset">offset</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#offsets"><a href="PIXI.filters.GlitchFilter.html#offsets">offsets</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#red"><a href="PIXI.filters.GlitchFilter.html#red">red</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#sampleSize"><a href="PIXI.filters.GlitchFilter.html#sampleSize">sampleSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#seed"><a href="PIXI.filters.GlitchFilter.html#seed">seed</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#sizes"><a href="PIXI.filters.GlitchFilter.html#sizes">sizes</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#slices"><a href="PIXI.filters.GlitchFilter.html#slices">slices</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlitchFilter#texture"><a href="PIXI.filters.GlitchFilter.html#texture">texture</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="PIXI.filters.GlitchFilter#destroy"><a href="PIXI.filters.GlitchFilter.html#destroy">destroy</a></li>
+            
+                <li class="parent  " data-name="PIXI.filters.GlitchFilter#redraw"><a href="PIXI.filters.GlitchFilter.html#redraw">redraw</a></li>
+            
+                <li class="parent  " data-name="PIXI.filters.GlitchFilter#refresh"><a href="PIXI.filters.GlitchFilter.html#refresh">refresh</a></li>
+            
+                <li class="parent  " data-name="PIXI.filters.GlitchFilter#shuffle"><a href="PIXI.filters.GlitchFilter.html#shuffle">shuffle</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.GlowFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.GlowFilter.html">PIXI.filters.GlowFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.GlowFilter#color"><a href="PIXI.filters.GlowFilter.html#color">color</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlowFilter#distance"><a href="PIXI.filters.GlowFilter.html#distance">distance</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlowFilter#innerStrength"><a href="PIXI.filters.GlowFilter.html#innerStrength">innerStrength</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GlowFilter#outerStrength"><a href="PIXI.filters.GlowFilter.html#outerStrength">outerStrength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.GodrayFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.GodrayFilter.html">PIXI.filters.GodrayFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.GodrayFilter#angle"><a href="PIXI.filters.GodrayFilter.html#angle">angle</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GodrayFilter#center"><a href="PIXI.filters.GodrayFilter.html#center">center</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GodrayFilter#gain"><a href="PIXI.filters.GodrayFilter.html#gain">gain</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GodrayFilter#lacunarity"><a href="PIXI.filters.GodrayFilter.html#lacunarity">lacunarity</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GodrayFilter#parallel"><a href="PIXI.filters.GodrayFilter.html#parallel">parallel</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.GodrayFilter#time"><a href="PIXI.filters.GodrayFilter.html#time">time</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.KawaseBlurFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.KawaseBlurFilter.html">PIXI.filters.KawaseBlurFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.KawaseBlurFilter#blur"><a href="PIXI.filters.KawaseBlurFilter.html#blur">blur</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.KawaseBlurFilter#clamp"><a href="PIXI.filters.KawaseBlurFilter.html#clamp">clamp</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.KawaseBlurFilter#kernels"><a href="PIXI.filters.KawaseBlurFilter.html#kernels">kernels</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.KawaseBlurFilter#pixelSize"><a href="PIXI.filters.KawaseBlurFilter.html#pixelSize">pixelSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.KawaseBlurFilter#quality"><a href="PIXI.filters.KawaseBlurFilter.html#quality">quality</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.MotionBlurFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.MotionBlurFilter.html">PIXI.filters.MotionBlurFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.MotionBlurFilter#kernelSize"><a href="PIXI.filters.MotionBlurFilter.html#kernelSize">kernelSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.MotionBlurFilter#offset"><a href="PIXI.filters.MotionBlurFilter.html#offset">offset</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.MotionBlurFilter#velocity"><a href="PIXI.filters.MotionBlurFilter.html#velocity">velocity</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.MultiColorReplaceFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.MultiColorReplaceFilter.html">PIXI.filters.MultiColorReplaceFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.MultiColorReplaceFilter#epsilon"><a href="PIXI.filters.MultiColorReplaceFilter.html#epsilon">epsilon</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.MultiColorReplaceFilter#maxColors"><a href="PIXI.filters.MultiColorReplaceFilter.html#maxColors">maxColors</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.MultiColorReplaceFilter#replacements"><a href="PIXI.filters.MultiColorReplaceFilter.html#replacements">replacements</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            <span class="subtitle">Methods</span>
+            
+                <li class="parent  " data-name="PIXI.filters.MultiColorReplaceFilter#refresh"><a href="PIXI.filters.MultiColorReplaceFilter.html#refresh">refresh</a></li>
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.OldFilmFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.OldFilmFilter.html">PIXI.filters.OldFilmFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#noise"><a href="PIXI.filters.OldFilmFilter.html#noise">noise</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#noiseSize"><a href="PIXI.filters.OldFilmFilter.html#noiseSize">noiseSize</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#scratch"><a href="PIXI.filters.OldFilmFilter.html#scratch">scratch</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#scratchDensity"><a href="PIXI.filters.OldFilmFilter.html#scratchDensity">scratchDensity</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#scratchWidth"><a href="PIXI.filters.OldFilmFilter.html#scratchWidth">scratchWidth</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#seed"><a href="PIXI.filters.OldFilmFilter.html#seed">seed</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#sepia"><a href="PIXI.filters.OldFilmFilter.html#sepia">sepia</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#vignetting"><a href="PIXI.filters.OldFilmFilter.html#vignetting">vignetting</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#vignettingAlpha"><a href="PIXI.filters.OldFilmFilter.html#vignettingAlpha">vignettingAlpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OldFilmFilter#vignettingBlur"><a href="PIXI.filters.OldFilmFilter.html#vignettingBlur">vignettingBlur</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.OutlineFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.OutlineFilter.html">PIXI.filters.OutlineFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.OutlineFilter.MAX_SAMPLES"><a href="PIXI.filters.OutlineFilter.html#.MAX_SAMPLES">MAX_SAMPLES</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OutlineFilter.MIN_SAMPLES"><a href="PIXI.filters.OutlineFilter.html#.MIN_SAMPLES">MIN_SAMPLES</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OutlineFilter#color"><a href="PIXI.filters.OutlineFilter.html#color">color</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.OutlineFilter#thickness"><a href="PIXI.filters.OutlineFilter.html#thickness">thickness</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.PixelateFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.PixelateFilter.html">PIXI.filters.PixelateFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.PixelateFilter#size"><a href="PIXI.filters.PixelateFilter.html#size">size</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.RadialBlurFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.RadialBlurFilter.html">PIXI.filters.RadialBlurFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.RadialBlurFilter#angle"><a href="PIXI.filters.RadialBlurFilter.html#angle">angle</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.RadialBlurFilter#center"><a href="PIXI.filters.RadialBlurFilter.html#center">center</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.RadialBlurFilter#radius"><a href="PIXI.filters.RadialBlurFilter.html#radius">radius</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.ReflectionFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.ReflectionFilter.html">PIXI.filters.ReflectionFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.ReflectionFilter#alpha"><a href="PIXI.filters.ReflectionFilter.html#alpha">alpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ReflectionFilter#amplitude"><a href="PIXI.filters.ReflectionFilter.html#amplitude">amplitude</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ReflectionFilter#boundary"><a href="PIXI.filters.ReflectionFilter.html#boundary">boundary</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ReflectionFilter#mirror"><a href="PIXI.filters.ReflectionFilter.html#mirror">mirror</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ReflectionFilter#time"><a href="PIXI.filters.ReflectionFilter.html#time">time</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ReflectionFilter#waveLength"><a href="PIXI.filters.ReflectionFilter.html#waveLength">waveLength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.RGBSplitFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.RGBSplitFilter.html">PIXI.filters.RGBSplitFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.RGBSplitFilter#blue"><a href="PIXI.filters.RGBSplitFilter.html#blue">blue</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.RGBSplitFilter#green"><a href="PIXI.filters.RGBSplitFilter.html#green">green</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.RGBSplitFilter#red"><a href="PIXI.filters.RGBSplitFilter.html#red">red</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.ShockwaveFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.ShockwaveFilter.html">PIXI.filters.ShockwaveFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#amplitude"><a href="PIXI.filters.ShockwaveFilter.html#amplitude">amplitude</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#brightness"><a href="PIXI.filters.ShockwaveFilter.html#brightness">brightness</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#center"><a href="PIXI.filters.ShockwaveFilter.html#center">center</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#radius"><a href="PIXI.filters.ShockwaveFilter.html#radius">radius</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#speed"><a href="PIXI.filters.ShockwaveFilter.html#speed">speed</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#time"><a href="PIXI.filters.ShockwaveFilter.html#time">time</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ShockwaveFilter#wavelength"><a href="PIXI.filters.ShockwaveFilter.html#wavelength">wavelength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.SimpleLightmapFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.SimpleLightmapFilter.html">PIXI.filters.SimpleLightmapFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.SimpleLightmapFilter#alpha"><a href="PIXI.filters.SimpleLightmapFilter.html#alpha">alpha</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.SimpleLightmapFilter#color"><a href="PIXI.filters.SimpleLightmapFilter.html#color">color</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.SimpleLightmapFilter#texture"><a href="PIXI.filters.SimpleLightmapFilter.html#texture">texture</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.TiltShiftFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.TiltShiftFilter.html">PIXI.filters.TiltShiftFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.TiltShiftFilter#blur"><a href="PIXI.filters.TiltShiftFilter.html#blur">blur</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.TiltShiftFilter#end"><a href="PIXI.filters.TiltShiftFilter.html#end">end</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.TiltShiftFilter#gradientBlur"><a href="PIXI.filters.TiltShiftFilter.html#gradientBlur">gradientBlur</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.TiltShiftFilter#start"><a href="PIXI.filters.TiltShiftFilter.html#start">start</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.TwistFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.TwistFilter.html">PIXI.filters.TwistFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.TwistFilter#angle"><a href="PIXI.filters.TwistFilter.html#angle">angle</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.TwistFilter#offset"><a href="PIXI.filters.TwistFilter.html#offset">offset</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.TwistFilter#radius"><a href="PIXI.filters.TwistFilter.html#radius">radius</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+        <li class="item" data-name="PIXI.filters.ZoomBlurFilter">
+            <span class="title  ">
+                
+                <a href="PIXI.filters.ZoomBlurFilter.html">PIXI.filters.ZoomBlurFilter</a>
+            </span>
+            <ul class="members itemMembers">
+            
+            <span class="subtitle">Members</span>
+            
+                <li class="parent " data-name="PIXI.filters.ZoomBlurFilter#center"><a href="PIXI.filters.ZoomBlurFilter.html#center">center</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ZoomBlurFilter#innerRadius"><a href="PIXI.filters.ZoomBlurFilter.html#innerRadius">innerRadius</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ZoomBlurFilter#radius"><a href="PIXI.filters.ZoomBlurFilter.html#radius">radius</a></li>
+            
+                <li class="parent " data-name="PIXI.filters.ZoomBlurFilter#strength"><a href="PIXI.filters.ZoomBlurFilter.html#strength">strength</a></li>
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="typedefs itemMembers">
+            
+            </ul>
+            <ul class="methods itemMembers">
+            
+            </ul>
+            <ul class="events itemMembers">
+            
+            </ul>
+        </li>
+    
+    </ul>
+</div>
+    <div class="main">
+        <h1 class="page-title" data-filename="PIXI.filters.DropShadowFilter.html">Class: DropShadowFilter</h1>
+        
+
+
+
+<section>
+    
+<header>
+    <div class="header content-size">
+        <h2>DropShadowFilter
+        </h2>
+        
+            <div class="class-description"><p>Drop shadow filter.<br>
+<img src="../tools/screenshots/dist/original.png" alt="original"><img src="../tools/screenshots/dist/drop-shadow.png" alt="filter"></p></div>
+        
+    </div>
+</header>  
+
+<article class="content-size">
+    <div class="container-overview">
+    
+    
+    
+        
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="DropShadowFilter">
+            <a class="share-icon" href="#DropShadowFilter"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">
+                new PIXI.filters.DropShadowFilter
+            </span>
+            <span class="signature">(<span class="optional">options</span>)</span>
+            
+            
+            
+            
+        </h4>
+    
+        
+        <div class="tag-source">
+            <a href="drop-shadow_src_DropShadowFilter.js.html#line26">DropShadowFilter.js:26</a>
+        </div>
+        
+    </div>
+
+    
+</dt>
+<dd>
+    
+    
+
+    
+    
+    
+    
+    
+        
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>options</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">object</span>
+
+
+            
+            </td>
+            
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>Filter options</p>
+                
+
+<table class="params">
+    <thead>
+	<tr>
+		
+		<th>Name</th>
+		
+		
+		<th>Type</th>
+		
+		
+		<th>Default</th>
+		
+		
+		<th class="last">Description</th>
+	</tr>
+	</thead>
+	
+	<tbody>
+	
+	
+        <tr>
+            
+                <td class="name"><code>rotation</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    45
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>The angle of the shadow in degrees.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>distance</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    5
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>Distance of shadow</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>color</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    0x000000
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>Color of the shadow</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>alpha</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    0.5
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>Alpha of the shadow</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>shadowOnly</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    false
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>Whether render shadow only</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>blur</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    2
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>Sets the strength of the Blur properties simultaneously</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>quality</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    3
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>The quality of the Blur filter.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>kernels</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">Array.&lt;number></span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    null
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>The kernels of the Blur filter.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>pixelSize</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+|
+
+<span class="param-type">Array.&lt;number></span>
+|
+
+<span class="param-type">PIXI.Point</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    1
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>the pixelSize of the Blur filter.</p></td>
+        </tr>
+	
+	
+	
+        <tr>
+            
+                <td class="name"><code>resolution</code></td>
+            
+            
+            <td class="type">
+            
+                
+<span class="param-type">number</span>
+
+
+            
+            </td>
+            
+            
+                <td class="default">
+                
+                    PIXI.settings.RESOLUTION
+                
+                </td>
+            
+            
+            <td class="description last">
+                
+                    
+                        <span class="optional">optional</span>
+                    
+                    
+                        
+                    
+                
+                <p>The resolution of the Blur filter.</p></td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+            </td>
+        </tr>
+	
+	
+	</tbody>
+</table>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+</dd>
+
+    
+    </div>
+    
+    
+        <h3 class="subsection-title">Extends</h3>
+        
+        <ul>
+            <li>PIXI.Filter</li>
+        </ul>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <h3 class="subsection-title">Members</h3>
+        
+        <dl class="list-members">
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="alpha">
+            <a class="share-icon" href="#alpha"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">alpha</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The alpha of the shadow</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>1</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="blur">
+            <a class="share-icon" href="#blur"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">blur</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The blur of the shadow</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>2</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="color">
+            <a class="share-icon" href="#color"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">color</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The color of the shadow.</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>0x000000</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="distance">
+            <a class="share-icon" href="#distance"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">distance</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Distance offset of the shadow</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>5</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="kernels">
+            <a class="share-icon" href="#kernels"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">kernels</span>
+            <span class="type-signature type">Array.&lt;number></span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Sets the kernels of the Blur Filter</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="pixelSize">
+            <a class="share-icon" href="#pixelSize"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">pixelSize</span>
+            <span class="type-signature type">number | Array.&lt;number> | PIXI.Point</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Sets the pixelSize of the Kawase Blur filter</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>1</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="quality">
+            <a class="share-icon" href="#quality"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">quality</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Sets the quality of the Blur Filter</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>4</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="resolution">
+            <a class="share-icon" href="#resolution"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">resolution</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The resolution of the filter.</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>PIXI.settings.RESOLUTION</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        
+            
+<dt>
+    <div class="nameContainer">
+        <h4 class="name" id="rotation">
+            <a class="share-icon" href="#rotation"><span class="glyphicon glyphicon-link"></span></a>
+            <span class="">rotation</span>
+            <span class="type-signature type">number</span>
+            
+            
+            
+            
+        </h4>
+    </div>
+    
+    
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>The angle of the shadow in degrees</p>
+    </div>
+    
+    
+    
+<dl class="details">
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy"><li>2</li></ul></dd>
+    
+    
+    
+    
+    
+    
+    
+</dl>
+
+    
+    
+</dd>
+
+        </dl>
+    
+    
+    
+    
+    
+    
+    
+
+    
+</article>
+
+</section>  
+
+
+
+
+
+        
+
+        <footer class="content-size">
+            <div class="footer">
+                Documentation generated by <a target="_blank" href="https://github.com/jsdoc3/jsdoc">JSDoc 3.5.5</a> on Sun Dec 16 2018 20:53:21 GMT+0100 (Paris, Madrid)
+            </div>
+        </footer>
+    </div>
+</div>
+<script>prettyPrint();</script>
+<script src="scripts/main.js"></script>
+</body>
+</html>

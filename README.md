@@ -4,6 +4,7 @@ Currently included:
 
 - Paper.js
 - PixiJS
+- PixiJS filters
 - Anime.js
 
 # Download

@@ -7,3 +7,6 @@
 [submodule "pixijs/pixi.js"]
 	path = pixijs/pixi.js
 	url = https://github.com/pixijs/pixi.js.git
+[submodule "pixijs/pixi-filters"]
+	path = pixijs/pixi-filters
+	url = https://github.com/pixijs/pixi-filters.git
